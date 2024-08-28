@@ -15,8 +15,8 @@ Welcome to the **Blog Application** documentation! This project is a simple yet 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/erfunit/ejs-markdown-blog
-cd blog-app
+git clone https://github.com/erfunit/ejs-markdown-blog.git
+cd ejs-markdown-blog
 ```
 
 ### 2. Install Dependencies
