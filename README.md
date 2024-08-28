@@ -46,16 +46,21 @@ Your application will be running at `http://localhost:3002`.
 ```plaintext
 .
 ├── models
-│   └── articles.js        # Mongoose schema and model for articles
+│   └── articles.js         # Mongoose schema and model for articles
 ├── routes
-│   └── article.js         # Express router for article-related routes
+│   └── article.js          # Express router for article-related routes
 ├── views
-│   ├── articles           # EJS templates for articles (new, edit, index, show)
-│   ├── _form_fields.ejs   # Partial template for article forms
-│   └── layout.ejs         # Layout template
-├── .env                   # Environment variables
-├── app.js                 # Main Express application file
-└── package.json           # Project metadata and dependencies
+│   └── articles            # EJS templates for articles (new, edit, index, show)
+│       ├── _form_fields.ejs # Partial template for article forms
+│       ├── edit.ejs        # Edit article form
+│       ├── index.ejs       # List all articles
+│       ├── new.ejs         # New article form
+│       └── show.ejs        # Show a single article
+├── .gitignore              # Files to be ignored by Git
+├── README.md               # Project documentation
+├── package-lock.json       # Lockfile for npm dependencies
+├── package.json            # Project metadata and dependencies
+└── server.js               # Main Express application file
 ```
 
 ## 📄 Models
