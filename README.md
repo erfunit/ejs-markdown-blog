@@ -15,7 +15,7 @@ Welcome to the **Blog Application** documentation! This project is a simple yet 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/blog-app.git
+git clone https://github.com/erfunit/ejs-markdown-blog
 cd blog-app
 ```
 
@@ -30,7 +30,7 @@ npm install
 Create a `.env` file in the root directory and add your MongoDB connection string:
 
 ```
-DATABASE_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+DATABASE_URI=your_db_uri
 ```
 
 ### 4. Start the Application
